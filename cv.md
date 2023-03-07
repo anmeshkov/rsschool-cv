@@ -11,8 +11,8 @@ Male, 33 years, born on 7 October 1989.
 - Telegram: [andrewmeshkov](https://t.me/andrewmeshkov)
 - Discord: [Andrew Meshkov#4616](https://discordapp.com/users/1044263012040712192/
 )
-## About Me
 
+## About Me
 Hi!
 
 My name is Andrew. I am a Junior frontend developer,
@@ -31,7 +31,6 @@ About me: love sports and technology.
 - Figma/Photoshop
 
 ## Code examples
-
 [1. Find the missing element between two arrays](https://www.codewars.com/kata/5a5915b8d39ec5aa18000030 "Codewars.com")
 
 ```javascript
