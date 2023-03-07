@@ -72,12 +72,16 @@ function maxTriSum(numbers) {
 
 ### Professional development, courses:
 
-JavaScript | Udemy | https://www.udemy.com/
-
-JavaScript | Hexlet | https://ru.hexlet.io/
-
-Git | Hexlet | https://ru.hexlet.io/
-
+| Course name                                                           | Organization                  | Website                  | Year |
+|-----------------------------------------------------------------------|-------------------------------|--------------------------|------|
+| JavaScript from scratch - Language basics and practice for beginners  | Udemy                         | https://www.udemy.com/   | 2023 |
+| Command Line Basics                                                   | Hexlet                        | https://ru.hexlet.io     | 2022 |
+| Basic administration of Linux servers                                 | Training Center "Slurm"       | https://edu.slurm.io/    | 2022 |
+| Basics of site layout                                                 | Netology                      | https://netology.ru/     | 2022 |
+| JavaScript Course: Learning JS                                        | CodeBasics                    | https://code-basics.com/ | 2022 |
+| HTML course: html layout training                                     | CodeBasics                    | https://code-basics.com/ | 2022 |
+| CSS Course: Online training                                           | CodeBasics                    | https://code-basics.com/ | 2022 |
+| The course "PHP: Introduction to the profession"                      | Programming Academy "ProfIT"  | https://pr-of-it.ru/     | 2019 |
 
 ## English
 - **Russian** - native speaker.
