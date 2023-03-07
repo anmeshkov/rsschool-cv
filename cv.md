@@ -64,3 +64,21 @@ function maxTriSum(numbers) {
     return summ;
 }
 ```
+
+## Education
+### University:
+- Volgograd State Technical University
+- Volgograd State University of Architecture and Civil Engineering
+
+### Professional development, courses:
+
+JavaScript | Udemy | https://www.udemy.com/
+
+JavaScript | Hexlet | https://ru.hexlet.io/
+
+Git | Hexlet | https://ru.hexlet.io/
+
+
+## English
+- **Russian** - native speaker.
+- **English** - A2 (Pre-intermediate)
