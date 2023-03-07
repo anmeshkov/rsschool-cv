@@ -82,7 +82,7 @@ function maxTriSum(numbers) {
 | JavaScript Course: Learning JS                                        | [CodeBasics](https://code-basics.com/ "CodeBasics")                       | 2022 |
 | HTML course: html layout training                                     | [CodeBasics](https://code-basics.com/ "CodeBasics")                       | 2022 |
 | CSS Course: Online training                                           | [CodeBasics](https://code-basics.com/ "CodeBasics")                       | 2022 |
-| The course "PHP: Introduction to the profession"                      | [Programming Academy "ProfIT"](https://pr-of-it.ru/ "")                   | 2019 |
+| The course "PHP: Introduction to the profession"                      | [Programming Academy "ProfIT"](https://pr-of-it.ru/ "ProfIT")             | 2019 |
 
 ## English
 - **Russian** - native speaker.
