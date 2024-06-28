@@ -27,6 +27,7 @@ About myself: I strive for constant professional growth and acquisition of new s
 - Adobe Photoshop, Figma
 - Agile, Scrum
 - UX/UI
+
 ## Code examples
 [1. Find the missing element between two arrays](https://www.codewars.com/kata/5a5915b8d39ec5aa18000030 "Codewars.com")
 
