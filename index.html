@@ -1,12 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Hello, rsschool!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <!-- navigation -->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#about">About Me</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Contacts</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Skils</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Code examples</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Education</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /navigation -->
+      </div>
+    </header>
+    <!-- /header -->
+    <!-- main -->
+    <main class="main">
+      <!-- section about -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="title__wrapper">
+            <h1 class="about-title">Andrew Meshkov</h1>
+            <p class="about-subtitle">Frontend Developer</p>
+          </div>
+          <div class="about__content">
+            <h2 class="section__title"># About Me</h2>
+            <div class="about__text">
+              <p>Hi!</p>
+              <p>My name is Andrew.</p>
+              <p>
+                I am a front-end developer with a strong background in creating
+                modern and intuitive user interfaces. I have experience with
+                core web technologies: HTML, CSS and JavaScript, as well as
+                popular frameworks such as React.
+              </p>
+              <p>
+                My goal is to apply my technical knowledge in a dynamic and
+                innovative company where I can actively participate in the
+                development of web applications.
+              </p>
+              <p>
+                About myself: I strive for constant professional growth and
+                acquisition of new skills. I love sports and technology.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /section about -->
+
+      <!-- section contacts -->
+      <section class="contacts">
+        <div class="container contacts_wrp">
+          <h2 class="section__title"># Contacts</h2>
+          <div class="content__wrapper">
+            <div class="column-3">
+              <div class="contacts__info">
+                <h3 class="contacts__title">Location:</h3>
+                <p class="contacts__text">Russia, Volgograd</p>
+              </div>
+              <div class="contacts__info">
+                <h3 class="contacts__title">Email:</h3>
+                <p class="contacts__text">
+                  <a href="mailto:meshkov89@gmail.com">meshkov89@gmail.com</a>
+                </p>
+              </div>
+              <div class="contacts__info">
+                <h3 class="contacts__title">Phone:</h3>
+                <p class="contacts__text">
+                  <a href="tel:+79956180018">+7 (995) 618-00-18</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="column-3">
+              <div class="contacts__info">
+                <h3 class="contacts__title">GitHub:</h3>
+                <p class="contacts__text">
+                  <a
+                    href="https://github.com/anmeshkov"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://github.com/anmeshkov</a
+                  >
+                </p>
+              </div>
+              <div class="contacts__info">
+                <h3 class="contacts__title">Telegram:</h3>
+                <p class="contacts__text">
+                  <a
+                    href="https://t.me/andrewmeshkov"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://t.me/andrewmeshkov</a
+                  >
+                </p>
+              </div>
+              <div class="contacts__info">
+                <h3 class="contacts__title">Discord:</h3>
+                <p class="contacts__text">
+                  <a
+                    href="https://discordapp.com/users/1044263012040712192/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Andrew Meshkov</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="column-3">
+              <div class="contacts__info">
+                <a class="link__button" href="#" target="_blank" rel="noopener noreferrer">Download CV</a>
+              </div>
+              <div class="contacts__info">
+                <a class="link__button" href="#" target="_blank" rel="noopener noreferrer">Contact Me</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- /section contacts  -->
+    </main>
+    <!-- /main -->
+  </body>
 </html>
