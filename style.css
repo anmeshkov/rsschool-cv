@@ -33,7 +33,7 @@ html {
   display: flex;
   align-items: center;
   height: 100vh;
-  display: none !important;
+  /* display: none !important; */
 }
 
 /* =========================================================================
@@ -83,7 +83,7 @@ html {
   height: 100vh;
   background-color: #fff;
   padding: 50px 0;
-  display: none !important;
+  /* display: none !important; */
 }
 
 .title__wrapper {
@@ -125,10 +125,20 @@ html {
   CONTACTS
 ========================================================================= */
 .contacts {
-  /* background-color: #232323; */
-  /* color: #fff; */
+  background-color: #232323;
+  color: #fff;
   padding: 50px 0;
   height: 100vh;
+}
+
+.contacts a {
+  /* color: aqua; */
+  color: #ffffff;
+  transition: color 0.2s ease;
+}
+
+.contacts a:hover {
+  color: #336aea;
 }
 
 .content__wrapper {
@@ -141,4 +151,33 @@ html {
 .column-3 {
   width: 33.3333%;
   /* border: 1px solid #000; */
+}
+
+.button__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 25px;
+}
+
+a.link__button {
+  display: block;
+  border: 3px solid #ffffff;
+  background-color: #336aea;
+  color: #ffffff;
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+a.link__button:hover {
+  background-color: #5887f6;
+  color: #ffffff;
+}
+
+.map {
+  margin-top: 50px;
 }
