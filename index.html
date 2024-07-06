@@ -10,9 +10,9 @@
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container">
-        <!-- navigation -->
-        <nav class="header__nav">
+      <!-- navigation -->
+      <div class="navigation">
+        <nav class="header__nav container">
           <ul class="nav-list">
             <li class="nav-list__item">
               <a class="nav-list__link" href="#">Home</a>
@@ -28,9 +28,16 @@
             </li>
           </ul>
         </nav>
-        <!-- /navigation -->
+      </div>
+      <!-- /navigation -->
+      <div class="container title-wrapper">
+        <!-- h1 -->
         <h1 class="header__title">Andrew Meshkov</h1>
         <p class="header__subtitle">Frontend Developer</p>
+        <!-- /h1 -->
+        <div class="avatar">
+          <img class="avatar-img" src="./avatar.jpg" alt="Andrew Meshkov" />
+        </div>
       </div>
     </header>
     <!-- /header -->
@@ -65,12 +72,11 @@
         <div class="container">
           <h2 class="section-title">#Contacts</h2>
           <div class="content__wrapper">
-            <ul>
+            <ul class="contacts-list">
               <li><span>Location: </span>Russia, Volgograd</li>
               <li>
-                <span>Phone: </span
-                ><a href="tel:+79956180018">+7 (995) 618-00-18</a
-                ><span> — preferred means of communication</span>
+                <span>Phone: </span><a href="tel:+79956180018">+7 (995) 618-00-18</a> — preferred
+                means of communication
               </li>
               <li>
                 <span>Email: </span
@@ -131,11 +137,76 @@
         </div>
       </section>
       <!-- /section -->
+
+      <!-- section -->
+      <section id="education" class="education">
+        <div class="container">
+          <h2 class="section-title">#Education</h2>
+          <div class="content__wrapper">
+            <h3>University:</h3>
+            <p>Volgograd State Technical University</p>
+            <p>
+              Volgograd State University of Architecture and Civil Engineering
+            </p>
+            <h3>Professional development, courses:</h3>
+            <!-- course -->
+            <div class="course-name">
+              <p>
+                <span>Year:</span> 2023 <span>|</span>
+                <span>Organization:</span> "Udemy"
+              </p>
+              <p>
+                <span>Course name:</span> JavaScript from scratch - Language
+                basics and practice for beginners
+              </p>
+            </div>
+            <!-- /course -->
+
+            <!-- course -->
+            <div class="course-name">
+              <p>
+                <span>Year: </span>2022
+                <span>|</span>
+                <span>Organization: </span>"Hexlet"
+              </p>
+              <p><span>Course name: </span>Command Line Basics</p>
+            </div>
+            <!-- /course -->
+            <!-- course -->
+            <div class="course-name">
+              <p>
+                <span>Year: </span>2022
+                <span>|</span>
+                <span>Organization: </span>"Training Center Slurm"
+              </p>
+              <p>
+                <span>Course name: </span>Basic administration of Linux servers
+              </p>
+            </div>
+            <!-- /course -->
+          </div>
+        </div>
+      </section>
+      <!-- /section -->
+
+      <!-- section -->
+      <section id="language" class="language">
+        <div class="container">
+          <h2 class="section-title">#Language</h2>
+          <div class="content__wrapper">
+            <ul>
+              <li><span>Russian</span> - native speaker.</li>
+              <li><span>English</span> - A2 (Pre-intermediate)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- /section -->
     </main>
     <!-- /main -->
     <!-- footer -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__wrapper">
         <!-- copyright -->
         <div class="copy__wrapper">
           <p>© Andrew Meshkov 2024</p>
