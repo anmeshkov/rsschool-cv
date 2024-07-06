@@ -64,6 +64,11 @@ footer {
   font-size: 3rem;
   text-align: center;
 }
+
+.header__title span {
+  text-decoration: line-through;
+}
+
 .header__subtitle {
   font-size: 2rem;
   text-align: center;
@@ -128,5 +133,16 @@ footer {
   align-items: center;
   column-gap: 20px;
 }
-.rs-logo__img {
+
+/* =========================================================================
+  CODE
+========================================================================= */
+.code__wrapper {
+  padding: 10px 10px;
+  background-color: aliceblue;
+  border-radius: 4px;
+}
+
+.code__wrapper + .code__wrapper {
+  margin-top: 25px;
 }
