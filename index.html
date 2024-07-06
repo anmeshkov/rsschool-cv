@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <!-- navigation -->
+    <div class="navigation">
+      <nav class="header__nav container">
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">Home</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#about">About</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#skils">Skils</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#education">Education</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#constants">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- /navigation -->
+    <div class="container title-wrapper">
+      <!-- h1 -->
+      <h1 class="header__title">
+        <span>Andrew Meshkov</span> Stewie Griffin <br>:)
+      </h1>
+      <p class="header__subtitle">Frontend Developer</p>
+      <!-- /h1 -->
+      <div class="avatar">
+        <img class="avatar-img" src="./avatar.jpg" alt="Andrew Meshkov">
+      </div>
+    </div>
+  </header>
+  <!-- /header -->
+  <!-- main -->
+  <main class="main">
+    <!-- section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">#About Me</h2>
+        <div class="content__wrapper">
+          <p>Hi!</p>
+          <p>My name is Andrew.</p>
+          <p>
+            I am a front-end developer with a strong background in creating
+            modern and intuitive user interfaces. I have experience with core
+            web technologies: HTML, CSS and JavaScript, as well as popular
+            frameworks such as React. My goal is to apply my technical
+            knowledge in a dynamic and innovative company where I can actively
+            participate in the development of web applications.
+          </p>
+          <p>
+            About myself: I strive for constant professional growth and
+            acquisition of new skills. I love sports and technology.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- /section -->
+
+    <!-- section -->
+    <section id="constants" class="constants">
+      <div class="container">
+        <h2 class="section-title">#Contacts</h2>
+        <div class="content__wrapper">
+          <ul class="contacts-list">
+            <li><span>Location: </span>Russia, Volgograd</li>
+            <li>
+              <span>Phone: </span><a href="tel:+79956180018">+7 (995) 618-00-18</a> — preferred
+              means of communication
+            </li>
+            <li>
+              <span>Email: </span><a href="mailto:meshkov89@gmail.com">meshkov89@gmail.com</a>
+            </li>
+            <li>
+              <span>GitHub: </span><a href="https://github.com/anmeshkov" target="_blank"
+                rel="noopener noreferrer">https://github.com/anmeshkov</a>
+            </li>
+            <li>
+              <span>Telegram: </span><a href="https://t.me/andrewmeshkov" target="_blank"
+                rel="noopener noreferrer">AndrewMeshkov</a>
+            </li>
+            <li>
+              <span>Discord: </span><a href="https://discordapp.com/users/1044263012040712192/" target="_blank"
+                rel="noopener noreferrer">Andrew Meshkov#4616</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- /section -->
+
+    <!-- section -->
+    <section id="skils" class="skils">
+      <div class="container">
+        <h2 class="section-title">#Skils</h2>
+        <div class="content__wrapper">
+          <ul>
+            <li>HTML5, CSS3, SASS</li>
+            <li>
+              JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous
+              JavaScript)
+            </li>
+            <li>Git, GitHub, Webpack, npm</li>
+            <li>Windows, Linux operating systems</li>
+            <li>VS Code</li>
+            <li>Adobe Photoshop, Figma</li>
+            <li>Agile, Scrum</li>
+            <li>UX/UI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- /section -->
+
+    <!-- section -->
+    <section id="code" class="code">
+      <div class="container">
+        <h2 class="section-title">#Code examples</h2>
+        <div class="content__wrapper">
+          <div class="code__wrapper">
+            <pre class="code-style">
+// JavaScript
+const person = {
+  name: 'Andrew',
+  age: 34,
+  greet() {
+    console.log(`Hello, my name is ${this.name}!`);
+  },
+};
+</pre>
+          </div>
+
+          <div class="code__wrapper">
+            <pre class="code-style">
+// JavaScript                
+function findMissing(arr1, arr2) {
+  const arr1Sort = arr1.sort((a, b) =&gt; a&nbsp;&mdash; b);
+  const arr2Sort = arr2.sort((a, b) =&gt; a&nbsp;&mdash; b);
+  console.log(arr1Sort);
+  console.log(arr2Sort);
+  
+  for (let i = 0; i &lt; arr1Sort.length; i++) {
+    if&nbsp;(arr1Sort[i] != arr2Sort[i]) {
+    return arr1Sort[i];
+    }
+  }
+}
+</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /section -->
+
+    <!-- section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">#Projects</h2>
+        <div class="content__wrapper">
+          <ol>
+            <li>
+              <a href="https://github.com/anmeshkov/shelter-html-theme" target="_blank">Shelter</a>
+            </li>
+            <li>
+              <a href="https://github.com/anmeshkov/virtual-keyboard" target="_blank">Virtual Keyboard</a>
+            </li>
+            <li>
+              <a href="https://github.com/anmeshkov/cssBayan" target="_blank">cssBayan</a>
+            </li>
+            <li>
+              <a href="https://github.com/anmeshkov/NOEMI_Modern" target="_blank">NOEMI Modern</a>
+            </li>
+            <li>
+              <a href="https://github.com/anmeshkov/habbit-app" target="_blank">Habbit App</a>
+            </li>
+            <li>
+              <a href="https://github.com/anmeshkov/chessboard-js" target="_blank">JavaScript Chessboard</a>
+            </li>
+            <li>
+              <a href="https://github.com/anmeshkov/landwind-landing-page" target="_blank">Landwind Landing Page</a>
+            </li>
+            <li>
+              <a href="https://github.com/anmeshkov/freelancer-landing-page" target="_blank">Freelancer Landing Page</a>
+            </li>
+            <li>
+              <a href="https://github.com/anmeshkov/alivio-landing-page" target="_blank">Alivio Landing Page</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- /section -->
+
+    <!-- section -->
+    <section id="education" class="education">
+      <div class="container">
+        <h2 class="section-title">#Education</h2>
+        <div class="content__wrapper">
+          <h3>University:</h3>
+          <p>Volgograd State Technical University</p>
+          <p>
+            Volgograd State University of Architecture and Civil Engineering
+          </p>
+          <h3>Professional development, courses:</h3>
+          <!-- course -->
+          <div class="course-name">
+            <p>
+              <span>Year:</span> 2023 <span>|</span>
+              <span>Organization:</span> "Udemy"
+            </p>
+            <p>
+              <span>Course name:</span> JavaScript from scratch - Language
+              basics and practice for beginners
+            </p>
+          </div>
+          <!-- /course -->
+
+          <!-- course -->
+          <div class="course-name">
+            <p>
+              <span>Year: </span>2022
+              <span>|</span>
+              <span>Organization: </span>"Hexlet"
+            </p>
+            <p><span>Course name: </span>Command Line Basics</p>
+          </div>
+          <!-- /course -->
+          <!-- course -->
+          <div class="course-name">
+            <p>
+              <span>Year: </span>2022
+              <span>|</span>
+              <span>Organization: </span>"Training Center Slurm"
+            </p>
+            <p>
+              <span>Course name: </span>Basic administration of Linux servers
+            </p>
+          </div>
+          <!-- /course -->
+        </div>
+      </div>
+    </section>
+    <!-- /section -->
+
+    <!-- section -->
+    <section id="language" class="language">
+      <div class="container">
+        <h2 class="section-title">#Language</h2>
+        <div class="content__wrapper">
+          <ul>
+            <li><span>Russian</span> - native speaker.</li>
+            <li><span>English</span> - A2 (Pre-intermediate)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- /section -->
+  </main>
+  <!-- /main -->
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container footer__wrapper">
+      <!-- copyright -->
+      <div class="copy__wrapper">
+        <p>© Andrew Meshkov 2024</p>
+        <p>
+          <a href="https://github.com/anmeshkov" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+      </div>
+      <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer">
+        <img class="rs-logo__img" height="40" src="./rs-school-logo.svg" alt="rss chool logo">
+      </a>
+    </div>
+  </footer>
+  <!-- /footer -->
+</body>
+
+</html>
