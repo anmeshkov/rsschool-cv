@@ -152,13 +152,12 @@ const person = {
 
           <div class="code__wrapper">
             <pre class="code-style">
-// JavaScript                
+// JavaScript
 function findMissing(arr1, arr2) {
   const arr1Sort = arr1.sort((a, b) =&gt; a&nbsp;&mdash; b);
   const arr2Sort = arr2.sort((a, b) =&gt; a&nbsp;&mdash; b);
   console.log(arr1Sort);
   console.log(arr2Sort);
-  
   for (let i = 0; i &lt; arr1Sort.length; i++) {
     if&nbsp;(arr1Sort[i] != arr2Sort[i]) {
     return arr1Sort[i];
